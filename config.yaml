@@ -18,7 +18,7 @@ products:
     # ("Midea Comfee PortaSplit"), daher KEIN comfee-Ausschluss. Der EAN-Abgleich
     # ist der starke Anker; ohne EAN greift der Titel ("portasplit").
     title_must_exclude: []
-    max_price: 1000.0  # EUR – nur Angebote darunter lösen aus
+    max_price: 950.0  # EUR – nur Angebote darunter lösen aus
     allow_used: true  # Amazon Warehouse / gebrauchte Artikel erlauben
     # Pro Quelle die direkte Produkt-URL. Leere/fehlende Werte = übersprungen.
     urls:
@@ -48,23 +48,23 @@ products:
   #     idealo: "https://www.idealo.de/preisvergleich/OffersOfProduct/…"
 
 location:
-  postal_code: "74321"
-  city: "Bietigheim-Bissingen"
-  latitude: 48.9543
-  longitude: 9.1316
-  radius_km: 125  # Umkreis für Filial-Verfügbarkeit
+  postal_code: "74172"
+  city: "Neckarsulm"
+  latitude: 49.1922581
+  longitude: 9.2287089
+  radius_km: 80 # Umkreis für Filial-Verfügbarkeit
 
 # Quellen ein-/ausschalten. Schlüssel entsprechen den Adapter-Namen.
 sources:
-  geizhals: false
-  idealo: false
+  geizhals: true
+  idealo: true
   mediamarkt: true
   saturn: false
   obi: true
   bauhaus: true
-  hornbach: false
+  hornbach: true
   amazon: false
-  greensun: false
+  greensun: true
 
 # Tägliche "lebt noch"-Statusmeldung via Telegram (günstigster Preis je Gerät,
 # Quellen mit Daten). Zusätzlich ein Sofort-Alarm bei Totalausfall (keine
