@@ -70,5 +70,5 @@ sources:
 # Quellen mit Daten). Zusätzlich ein Sofort-Alarm bei Totalausfall (keine
 # einzige Quelle lieferte Daten). Beides ist auf max. 1x/Tag entprellt.
 heartbeat:
-  enabled: true
+  enabled: false
   hour_utc: 6  # erste Meldung am/nach dieser UTC-Stunde (6 ≈ 8 Uhr MESZ)
