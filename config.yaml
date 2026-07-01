@@ -57,7 +57,7 @@ location:
 # Quellen ein-/ausschalten. Schlüssel entsprechen den Adapter-Namen.
 sources:
   geizhals: true
-  idealo: true
+  idealo: false
   mediamarkt: true
   saturn: false
   obi: true
