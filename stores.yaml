@@ -24,14 +24,10 @@ mediamarkt:
     name: "Ludwigsburg"
     lat: 48.9080
     lon: 9.1720
-  - id: "402"         # …/store/stuttgart-feuerbach-402  (~16 km)
-    name: "Stuttgart-Feuerbach"
-    lat: 48.8090
-    lon: 9.1570
-  - id: "31"          # …/store/leonberg-31  (~19 km)
-    name: "Leonberg"
-    lat: 48.8010
-    lon: 9.0180
+  - id: "222"         # …/store/neckarsulm-222
+    name: "Neckarsulm"
+    lat: 49.173
+    lon: 9.222
   - id: "527"         # …/store/heilbronn-527  (~21 km)
     name: "Heilbronn"
     lat: 49.1370
